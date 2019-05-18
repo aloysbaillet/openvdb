@@ -15,3 +15,6 @@ make -j4
 cp -r include/serial /usr/local/include/.
 cp -r include/tbb /usr/local/include/.
 cp -r build/*/*.so* /usr/local/lib/.
+
+cd ..
+rm -rf tbb

@@ -1,6 +1,6 @@
 ![OpenVDB](http://www.openvdb.org/images/openvdb_logo.png)
 
-[![CircleCI](https://circleci.com/gh/AcademySoftwareFoundation/openvdb.svg?style=svg)](https://circleci.com/gh/AcademySoftwareFoundation/openvdb)
+[![Build Status](https://aloysbaillet.visualstudio.com/OpenEXR/_apis/build/status/aloysbaillet.openvdb?branchName=azure_migration_test)](https://aloysbaillet.visualstudio.com/OpenEXR/_build/latest?definitionId=2&branchName=azure_migration_test)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
 
 [Website](http://www.openvdb.org) |

@@ -5,7 +5,10 @@ set -ex
 BOOST_VERSION="$1"
 
 # only install for Boost 1.61
+apt-get update
 apt-get install -y libbz2-dev
+apt-get clean
+rm -rf /var/lib/apt/lists/*
 
 git clone https://github.com/boostorg/boost.git
 cd boost
@@ -30,3 +33,6 @@ git submodule update --init --
     --with-system \
     --with-thread \
     -j4
+
+cd ..
+rm -rf boost

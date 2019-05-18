@@ -16,3 +16,6 @@ cd build
 cmake ../.
 make -j4
 make install
+
+cd ../..
+rm -rf CMake
