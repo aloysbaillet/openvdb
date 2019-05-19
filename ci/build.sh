@@ -20,5 +20,5 @@ cmake \
     -DOPENVDB_BUILD_VDB_RENDER=ON \
     -DOPENVDB_BUILD_VDB_VIEW=ON \
     ..
-make -j16
+make -j2
 sudo make install
